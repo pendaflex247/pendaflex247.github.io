@@ -5,7 +5,6 @@ date: 2023-06-15 20:55:00 +0800
 categories: [Blogging, Demo]
 tags: [s3 static website domain]
 pin: true
-img_path: '/assets/img/aws-s3-static-website'
 ---
 
 Overview:
@@ -129,8 +128,7 @@ STEPS 3:  Create S3 Bucket
      "Action":["s3:GetObject"],
      "Resource":["arn:aws:s3:::example-bucket/*"]
   }]
-}
-			
+}		
 ```
 
 ![Alt text](<../assets/img/aws-s3-static-website/Pasted image 20230619154410.png>)
