@@ -16,7 +16,7 @@ Overview:
 4. **AWS CloudFront:** Map CloudFront endpoint (S3-CF-Route53).
 
 
-![Secure Static Website](<../assets/img/aws-s3-static-website/Secure-Static-Website.drawio.png>)
+![Secure Static Website](<https://github.com/pendaflex247/pendaflex247.github.io/blob/main/assets/img/aws-s3-static-website/Secure-Static-Website.drawio.png>)
 
 
 Steps 1: Route 53
