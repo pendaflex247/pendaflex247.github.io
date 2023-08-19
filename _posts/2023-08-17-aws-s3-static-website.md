@@ -118,7 +118,7 @@ STEPS 3:  Create S3 Bucket
 ![[S3-Secure-v1/images/Pasted image 20230619153701.png]]
 - Add the script and make sure to add the bucket name
 
-```yaml
+```json
 {
   "Version":"2012-10-17",
   "Statement":[{
@@ -128,7 +128,7 @@ STEPS 3:  Create S3 Bucket
      "Action":["s3:GetObject"],
      "Resource":["arn:aws:s3:::example-bucket/*"]
   }]
-}		
+}	
 ```
 
 ![Alt text](<../assets/img/aws-s3-static-website/Pasted image 20230619154410.png>)
