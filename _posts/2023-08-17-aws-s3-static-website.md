@@ -24,7 +24,7 @@ Steps 1: Route 53
 	-Search for route 53
 	-under domain > register domain
 
-![Alt text](</assets/img/aws-s3-static-website/Pasted%20image%2020230708195920.png>)
+![Alt text](</assets/img/aws-s3-static-website/20230708195920.png>)
 
 ![Alt text](<../assets/img/aws-s3-static-website/Pasted image 20230708200203.png>)
 
