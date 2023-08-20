@@ -5,7 +5,7 @@ date: 2023-06-09 20:55:00 +0800
 categories: [Blogging, Demo]
 tags: [ecommerce, aws, dynamodb, vpc]
 pin: true
-img_path: '/assets/img/aws-s3-ecommerce-website'
+#img_path: '/assets/img/aws-s3-ecommerce-website'
 ---
 
 Steps 1: Create VPC 
@@ -127,6 +127,7 @@ $ sudo apt install mysql-client
 ```bash
 $ cd /var/www/html
 ```
+
 ![Alt text](</assets/img/aws-ecommerce-website/20230625175515.png>)	
 
 ##### Clone the ecom site from GitHub
@@ -204,4 +205,4 @@ Go to the Url:
 
 ![Alt text](</assets/img/aws-ecommerce-website/20230625210743.png>)
 
-Note: go into the appache to point the server to the index.apache 
+Note: go into the appache to point the server to the index.apache
