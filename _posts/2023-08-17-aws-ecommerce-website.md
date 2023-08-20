@@ -181,7 +181,7 @@ Copy everything from line 30 to 353
 
 Paste in the ecom database 
 
-![Alt text](</assets/img/aws-ecommerce-website/20230625201441.png)		
+![Alt text](</assets/img/aws-ecommerce-website/20230625201441.png>)		
 
 ```bash
 $ show tables;
