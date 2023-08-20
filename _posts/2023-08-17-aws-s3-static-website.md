@@ -103,6 +103,7 @@ STEPS 3:  Create S3 Bucket
 
 - Disable block public access
 
+
 ![Alt text](../assets/img/aws-s3-static-website/20230619151833.png)
 
 ![Alt text](../assets/img/aws-s3-static-website/20230619151950.png)
@@ -142,7 +143,7 @@ STEPS 3:  Create S3 Bucket
 Note: if you got to the netxbytes.com it still will not work, 
 -You need to add a redirect for it to work 
 
-![Alt text](../assets/img/aws-s3-static-website/20230619160537.png)
+![Alt text](</assets/img/aws-s3-static-website/20230619160537.png>)
 
 Add a redirect from the netxbytes.com to the www.netxbytes.com
 	-Go to the netxbytes bucket
