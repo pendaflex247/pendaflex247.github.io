@@ -13,7 +13,9 @@ Create VPC
 with minimum of 2 availability zones
 -Select VPC and More
 
-<img src="/assets/img/aws-ecommerce-website/20230625123219.png" alt="aws ecom" width="500" height="600" >
+
+<img src="/assets/img/aws-ecommerce-website/20230625123219.png" >
+<img src="/assets/img/aws-ecommerce-website/20230625123320.png" >
 
 ![[Pasted image 20230625123219.png]]
 
