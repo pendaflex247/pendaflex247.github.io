@@ -103,14 +103,13 @@ STEPS 3:  Create S3 Bucket
 
 - Disable block public access
 
+![Alt text](</assets/img/aws-s3-static-website/20230619151833.png>)
 
-![Alt text](../assets/img/aws-s3-static-website/20230619151833.png)
-
-![Alt text](../assets/img/aws-s3-static-website/20230619151950.png)
+![Alt text](</assets/img/aws-s3-static-website/20230619151950.png>)
 
 - Edith Bucket Policy 
 
-![Alt text](../assets/img/aws-s3-static-website/20230619153701.png)
+![Alt text](</assets/img/aws-s3-static-website/20230619153701.png>)
 
 - Add the script and make sure to add the bucket name
 
