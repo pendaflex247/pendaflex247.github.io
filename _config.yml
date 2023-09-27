@@ -18,7 +18,7 @@ timezone: America/Atlanta
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Nomad Strides # the main title
+title: NomadStrides # the main title
 
 tagline: Cloud Native Enthusiast | HomeLab # it will display as the sub-title
 
