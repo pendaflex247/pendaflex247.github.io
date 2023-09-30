@@ -1,7 +1,7 @@
 ---
 title: AWS S3 Static Website Part 2 (without redirect)
 author: Nomadstrides
-date: 2023-06-15 20:55:00 +0800
+date: 2023-09-30 18:55:00 +0800
 categories: [Blogging, Demo]
 tags: [s3 static website domain]
 pin: true
