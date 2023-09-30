@@ -8,7 +8,7 @@ pin: true
 ---
 
 
-We will be using 4 majoreAWS services
+We will be using 4 majore AWS services
 
 Certificate manager
 S3 bucket
@@ -47,17 +47,17 @@ optional: use a wildcard if you are going to use a multiple subdomains(www.netxb
 
 ![Alt text](/assets/img/aws-s3-static-website-2/20230722102353.png)
 
-##### Validate the ertificate 
+##### Validate the Certificate 
 
 by creating a CNAME record on route53
--click on the certificate and scro down to Domain
+-click on the certificate and scrow down to Domain
 
 ![Alt text](/assets/img/aws-s3-static-website-2/20230722102640.png)
 
 ![Alt text](/assets/img/aws-s3-static-website-2/20230722102908.png)
 
 
-###### check route53 to verify the record was created successfully
+###### Check route53 to verify the record was created successfully
 
 ![Alt text](/assets/img/aws-s3-static-website-2/20230722103036.png)
 
