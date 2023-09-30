@@ -8,19 +8,20 @@ pin: true
 ---
 
 
-We will be using 4 majore AWS services
+We will be using 5 major AWS services
 
-Certificate manager
-S3 bucket
-CloudFront
-Route53
+1. **AWS Route53:** Buy/setup a domain name.
+2. **AWS Certificate Manager:** Assign SSL Certificate for the domain.
+3. **AWS S3 Bucket:** Create S3 bucket with static website.
+4. **AWS CloudFront:** Map CloudFront endpoint (S3-CF-Route53).
+5. **AWS WAF** Wab application firewall
 
 
-##### Assumptions:
+## Assumptions:
 -You already have your domain transferred or added to route53
 -Hosted zone
 
-##### Network Map
+## Network Map
 
 ![Alt text](/assets/img/aws-s3-static-website-2/static-website-networkmap.png)
 
