@@ -1,5 +1,5 @@
 ---
-title: AWS S3 Static Website
+title: AWS S3 Static Website (With Redirect)
 author: Nomadstrides
 date: 2023-06-15 20:55:00 +0800
 categories: [Blogging, Demo]
@@ -13,6 +13,7 @@ Overview:
 2. **AWS Certificate Manager:** Assign SSL Certificate for the domain.
 3. **AWS S3 Bucket:** Create S3 bucket with static website.
 4. **AWS CloudFront:** Map CloudFront endpoint (S3-CF-Route53).
+5. **AWS WAF** Wab application firewall
 
 
 ![Secure Static Website](<https://github.com/pendaflex247/pendaflex247.github.io/blob/main/assets/img/aws-s3-static-website/Secure-Static-Website.drawio.png>)
