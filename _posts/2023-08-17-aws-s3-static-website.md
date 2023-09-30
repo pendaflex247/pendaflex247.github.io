@@ -7,7 +7,7 @@ tags: [s3 static website domain]
 pin: true
 ---
 
-Overview:
+## Overview:
 --
 1. **AWS Route53:** Buy/setup a domain name.
 2. **AWS Certificate Manager:** Assign SSL Certificate for the domain.
@@ -16,8 +16,9 @@ Overview:
 5. **AWS WAF** Wab application firewall
 
 
-![Secure Static Website](<https://github.com/pendaflex247/pendaflex247.github.io/blob/main/assets/img/aws-s3-static-website/Secure-Static-Website.drawio.png>)
+## Network Map
 
+![Alt text](/assets/img/aws-s3-static-website-2/static-website-networkmap.png)
 
 Steps 1: Route 53
 --
