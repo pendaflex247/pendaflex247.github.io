@@ -192,6 +192,15 @@ Exit the database
 
 ![Alt text](</assets/img/aws-ecommerce-website/20230625203837.png>)
 
+Update the 
+
+- Database endpoint
+- Database username
+- Database password
+- EC2 instance name
+- EC2 public IP
+
+
 ![Alt text](</assets/img/aws-ecommerce-website/20230625203707.png>)
 
 ![Alt text](</assets/img/aws-ecommerce-website/20230625204436.png>)
