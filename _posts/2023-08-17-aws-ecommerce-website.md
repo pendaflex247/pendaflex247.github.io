@@ -111,8 +111,8 @@ Steps 4: Setup EC2 (DB Server )
 -Install lamp server
 
 ```bash
-$ sudo apt update
-$ sudo apt install lamp-server^
+sudo apt update
+sudo apt install lamp-server^
 ```
 
 ![Alt text](</assets/img/aws-ecommerce-website/20230625175040.png>)
@@ -120,14 +120,14 @@ $ sudo apt install lamp-server^
 -Install MSQL Client
 
 ```bash
-$ sudo apt install mysql-client
+sudo apt install mysql-client
 ```
 ![Alt text](</assets/img/aws-ecommerce-website/20230625175330.png>)	
 	
 -Verified that apache is installed
 
 ```bash
-$ cd /var/www/html
+cd /var/www/html
 ```
 
 ![Alt text](</assets/img/aws-ecommerce-website/20230625175515.png>)	
@@ -135,7 +135,7 @@ $ cd /var/www/html
 ##### Clone the ecom site from GitHub
 
 ```bash
-$ sudo git clone https://github.com/Jhoode/Electronix-Website.git
+sudo git clone https://github.com/Jhoode/Electronix-Website.git
 ```
 
 ![Alt text](</assets/img/aws-ecommerce-website/20230625195802.png>)		
@@ -143,14 +143,14 @@ $ sudo git clone https://github.com/Jhoode/Electronix-Website.git
 Note: connection.inc .php is going to connect the ec2 and the rds
 
 ```bash
-$ cd cd Electronix-Website/ecom/
+cd cd Electronix-Website/ecom/
 ```
 ![Alt text](</assets/img/aws-ecommerce-website/20230625200428.png>)	 
 	 
 ##### Connect to the database
 	
 ```bash
-$ mysql -h ecom-database.cslgmy1hb3xc.us-east-2.rds.amazonaws.com -u admin123 -p
+mysql -h ecom-database.cslgmy1hb3xc.us-east-2.rds.amazonaws.com -u admin123 -p
 ```
 
 Note: if this does not connect you directly to the data base you need to go to the EC2 security group and add the mysql ports 3306 from anywhere.
@@ -160,14 +160,14 @@ Note: if this does not connect you directly to the data base you need to go to t
 Note: if you don't see the database (ecom) just create a new
 
 ```bash
-$ create database ecom
+create database ecom
 ```
 
 ![Alt text](</assets/img/aws-ecommerce-website/20230625200502.png>)				
 				
 ```bash
-$ use ecom
-$ show tables;
+use ecom
+show tables;
 ```
 
 ![Alt text](</assets/img/aws-ecommerce-website/20230625202516.png>)
@@ -186,7 +186,7 @@ Paste in the ecom database
 ![Alt text](</assets/img/aws-ecommerce-website/20230625201441.png>)		
 
 ```bash
-$ show tables;
+show tables;
 ```
 ![Alt text](</assets/img/aws-ecommerce-website/20230625202711.png>)	
 	
