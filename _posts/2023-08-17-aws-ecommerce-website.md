@@ -96,7 +96,9 @@ Note: Make sure the sure the ec2 instance  is on public subnet
 
 ![Alt text](</assets/img/aws-ecommerce-website/20230625205526.png>)
 
-To connect to subnet this is not neccessary (Ignore)
+To connect to the RDS subnet this is neccessary 
+- Go to your EC2 instance 
+	- click on Actions > Networking > connect RDS Database
 
 ![Alt text](</assets/img/aws-ecommerce-website/20230625205655.png>)
 
