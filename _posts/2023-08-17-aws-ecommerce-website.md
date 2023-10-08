@@ -160,7 +160,7 @@ Note: if this does not connect you directly to the data base you need to go to t
 Note: if you don't see the database (ecom) just create a new
 
 ```bash
-create database ecom
+create database ecom;
 ```
 
 ![Alt text](</assets/img/aws-ecommerce-website/20230625200502.png>)				
@@ -203,7 +203,7 @@ Update the
 - EC2 public IP
 
 
-![Alt text](</assets/img/aws-ecommerce-website/20230625203707.png>)
+
 
 ![Alt text](</assets/img/aws-ecommerce-website/20230625204436.png>)
 
