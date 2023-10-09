@@ -143,7 +143,7 @@ sudo git clone https://github.com/Jhoode/Electronix-Website.git
 Note: connection.inc .php is going to connect the ec2 and the rds
 
 ```bash
-cd cd Electronix-Website/ecom/
+cd Electronix-Website/ecom/
 ```
 ![Alt text](</assets/img/aws-ecommerce-website/20230625200428.png>)	 
 	 
